@@ -1,0 +1,84 @@
+body{
+    background: rgb(212, 212, 212);
+}
+#selected-container{
+    border: 1px solid black;
+}
+.selected-list{
+    background-color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    padding: 0;
+    align-items: center;
+    position: relative;
+    /* padding: 5px; */
+}
+.selected-list li {
+    background-color: white;
+    /* padding: 5px; */
+    /* border: 1px solid black; */
+    margin: 2px 1px;
+    border-radius: 5px;
+    padding: 4px 5px;
+    color: white;
+    background:rgb(2, 31, 32) ;
+}
+.selected-list li button{
+    /* background-color: white; */
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    /* margin: 4px 5px; */
+    background-color: transparent;
+    color: white;
+
+}
+.selected-list li span {
+    margin-left: 5px;
+
+}
+.selected-list input{
+    background-color: white;
+    padding: 5px;
+    padding-left: 0px;
+    outline: none;
+    /* border: 1px solid black; */
+    border: none;
+    flex: 1;
+    width: calc(100% - 30px);
+    
+}
+.clear-all{
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    border: none;
+
+}
+.input-li {
+    flex: 1;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/*  */
+.selection-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.selection-list li{
+    padding: 5px;
+    background-color: white;
+    padding-left: 10px;
+}
+.selection-list li:hover {
+    background-color: rgba(26, 247, 255, 0.322);
+}
+.selected {
+    background: rgb(97, 97, 97) !important;
+}
